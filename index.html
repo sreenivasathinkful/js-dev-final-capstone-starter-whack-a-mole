@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="column">
+      <div class="parent-col-flex">
+        <label for="game-level">Choose Game Level</label>
+        <select name="game-level" id="game-level">
+          <option value="easy">Easy</option>
+          <option value="normal">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+    </div>
+    <div class="column">
+      <h1 id="title">Whack-a-Mole!!!!</h1>
+    </div>
+  </div>
+  </div>
+  <div>
+    <div>
+      <div>
+        <h2>Click <button id="start">Start</button> to play!</h2>
+      </div>
+      <div>
+        <h2>Score: <span id="score">0</span></h2>
+      </div>
+      <div>
+        <h2><span id="timer">0</span> Seconds left.</h2>
+      </div>
+    </div>
+    <div id="grid" class="grid">
+      <div id="hole0" class="hole">
+        <div id="mole0" class="mole"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./src/index.js"></script>
+</body>
+
+</html>
